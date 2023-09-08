@@ -1,0 +1,7 @@
+print('Hola Python')
+print('Estudiar "Python" es genial')
+print(65 + 89)
+print('linea 1\nlinea 2\nlinea 3')
+print("A\tB\tC\nD\tE\tF\nG\tH\tI")
+print('barra normal: /\nbarra invertida: \\')
+print(input('dime tu nombre: '))
