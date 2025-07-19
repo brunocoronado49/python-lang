@@ -21,3 +21,4 @@ print(type(numero_decimal))
 edad = int(input('dime tu edad: '))
 edad += 1
 print(f'{edad} - {type(edad)}')
+
