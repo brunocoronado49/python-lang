@@ -9,3 +9,11 @@ print(otro_resultado)
 
 metodo_rindex = mi_texto.rindex("a")
 print(metodo_rindex)
+
+videojuego = 'Resident Evil Re9uiem'
+print(videojuego[3])
+print(videojuego[7])
+print(videojuego[-4])
+print(videojuego.index('m'))
+print(videojuego.index('9'))
+

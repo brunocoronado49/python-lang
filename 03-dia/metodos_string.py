@@ -1,5 +1,6 @@
-frase = 'El Desarrollo Movil Me Aburre Un Poco, Bueno Mucho Al Chile'
+frase = 'Me atrae el analisis y ciencia de datos, junto con el backend'
 print(frase)
+
 resultado = frase.upper()
 print(resultado)
 
@@ -18,9 +19,13 @@ print(resultado)
 a = "Aprender"
 b = "Python"
 c = "es"
-d = "genial"
+d = "muy bueno"
 e = " ".join([a,b,c,d])
 print(e)
 
-resultado = frase.replace('o', 'XXX')
+result = frase.find("s")
+print(result)
+
+resultado = frase.replace('o', '@#$%^&*')
 print(resultado)
+
