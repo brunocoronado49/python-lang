@@ -5,7 +5,9 @@ diccionario = {
     'tipo': 'Mandaloriana',
     'amigos': {
         'nombre': 'Ahsoka'
-    }
+    },
+    "alive": True,
+    "enemies": ["Shin Hati", "El Imperio"]
 }
 
 print(type(diccionario))
@@ -26,8 +28,10 @@ otro_dic = {
 }
 print(otro_dic)
 otro_dic["c3"] = "c"
+otro_dic["c2"] = "B"
 print(otro_dic)
 
 print(otro_dic.keys())
 print(otro_dic.values())
 print(otro_dic.items())
+
