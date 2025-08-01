@@ -21,3 +21,13 @@ print(False or False)
 print(not True)
 print(not False)
 
+print(20 > 12)
+print(20 < 12)
+print('hola' == 'hola')
+print('hola' != 'no hola')
+
+lista = [1, 2 ,3, 5]
+control = 4 not in lista
+print(type(control))
+print(control)
+
