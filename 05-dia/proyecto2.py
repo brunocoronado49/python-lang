@@ -12,6 +12,7 @@ juego_terminado = False
 def elegir_palabra(lista_palabras):
     palabra_elegida = choice(lista_palabras)
     letras_unicas = len(set(palabra_elegida))
+    
     return palabra_elegida, letras_unicas
 
 
@@ -69,6 +70,7 @@ def perder():
 def ganar(palabra_descubierta):
     print('Felicidades, has ganado!')
     mostrar_nuevo_tablero(palabra_descubierta)
+    
     return True
 
 
