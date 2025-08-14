@@ -2,6 +2,7 @@ import os
 import random
 import argparse
 
+
 def get_random_wallpaper(folder_path):
     valid_ext = [".jpg","jpeg","png"]
     
@@ -20,6 +21,7 @@ def get_random_wallpaper(folder_path):
     selected_image = random.choice(image_files)
     return selected_image
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Selecciona un fondo de pantalla aleatorio")
     parser.add_argument("folder", type=str, help="Ruta de la carpeta con imagenes")
@@ -30,5 +32,3 @@ if __name__ == "__main__":
         print(f"fondo seleccionado: {wallpaper}")
     except Exception as e:
         print(f"Error: {e}")
-    
-    
