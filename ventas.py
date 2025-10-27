@@ -21,4 +21,3 @@ if cambio != 0:
     print(f'Su cambio es de {round(cambio)}')
 
 print('Gracias por su compra. Y NO VUELVA!')
-

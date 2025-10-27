@@ -1,7 +1,7 @@
 import re
 
 
-texto = 'Si necesitas ayuda llama a (492)-210-5194 las 24 horas al servicio de ayuda online'
+texto = 'Si necesitas ayuda llama a (492) las 24 horas al servicio de ayuda'
 
 patron = 'ayuda'
 busqueda = re.search(patron, texto)
